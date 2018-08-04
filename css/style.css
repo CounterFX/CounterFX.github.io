@@ -15,11 +15,13 @@ html {
 body {
 	background-image: url("https://sites.google.com/site/pokemonambient/_/rsrc/1376299316547/config/Zigzag%20spot.jpg.1376299316331.jpg");
 	background-repeat: repeat;
+  margin: auto;
+	max-width: 1200px;
 }
 footer {
 	color: var(--color-midnight-blue);
 	background-image: url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
-	margin-top: 15px;
+	margin-top: 25px;
 }
 #body {
 	background-image: url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
@@ -55,6 +57,10 @@ a {
 }
 .centered {
 	text-align: center;
+}
+.logo {
+  height: auto;
+	max-width: 100%;
 }
 .icon {
 	border-radius: 8px;
