@@ -1,8 +1,8 @@
 /* Variables */
 :root {
 	/* Credit to http://chir.ag/projects/name-that-color */
-  --color-cyprus: #00363e;
-  --color-midnight-blue: #003965;
+	--color-cyprus: #00363e;
+	--color-midnight-blue: #003965;
 	--color-venice-blue: #0b5394;
 	--color-half-baked: #84c7ca;
 	--color-mint-tulip: #c0e3f4;
@@ -18,7 +18,7 @@ body {
 }
 footer {
 	color: var(--color-midnight-blue);
-	background-image:  url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
+	background-image: url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
 	margin-top: 15px;
 }
 #body {
@@ -26,7 +26,12 @@ footer {
 	background-repeat: repeat;
 	color: var(--color-midnight-blue);
 }
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	color: var(--color-venice-blue);
 }
 hr {
@@ -59,7 +64,7 @@ a {
 	min-height: 40px;
 	min-width: 40px;
 	padding: 1px;
-  width: 5%;
+	width: 5%;
 }
 .icon:hover {
 	border-radius: 8px;

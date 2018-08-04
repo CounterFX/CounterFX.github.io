@@ -22,7 +22,7 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 	<title>Project Ambient - News</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -30,7 +30,7 @@
 <!-- Content -->
 
 <body>
-	
+
 	<!-- Header -->
 	<header class="centered">
 		<a href="index.html"><img src="https://sites.google.com/site/pokemonambient/_/rsrc/1376295165716/config/customLogo.gif?revision=16" alt="Pokémon Ambient logo" /></a>
@@ -120,16 +120,10 @@
 				</a>
 		</div>
 
-  	<!-- Your like button code -->
-  	<!--<div class="fb-like" 
-			 data-href="https://www.facebook.com/PokemonAmbient" 
-			 data-layout="standard" 
-			 data-action="like" 
-			 data-size="large" 
-			 data-show-faces="false" 
-			 data-share="true">
-		</div>-->
-		
+		<!-- Your like button code -->
+		<div class="fb-like" data-href="https://www.facebook.com/PokemonAmbient" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true">
+		</div>
+
 		<p class="centered">
 			<b>	&reg; 2012-2018 Project Ambient</b>.
 		</p>
@@ -157,16 +151,22 @@
 			Other trademarks are the property of their respective owners.
 		</p>
 	</footer>
-	
+
 	<!-- Load Facebook SDK for JavaScript -->
-  <!--<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>-->
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<!-- Publish TrustedSite Trustmark -->
+	<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 </body>
 
 </html>
