@@ -1,0 +1,98 @@
+/* Variables */
+:root {
+	/* Credit to http://chir.ag/projects/name-that-color */
+  --color-cyprus: #00363e;
+  --color-midnight-blue: #003965;
+	--color-venice-blue: #0b5394;
+	--color-half-baked: #84c7ca;
+	--color-mint-tulip: #c0e3f4;
+}
+/* Core */
+html {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+body {
+	background-image: url("https://sites.google.com/site/pokemonambient/_/rsrc/1376299316547/config/Zigzag%20spot.jpg.1376299316331.jpg");
+	background-repeat: repeat;
+}
+footer {
+	color: var(--color-midnight-blue);
+	background-image:  url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
+	margin-top: 15px;
+}
+#body {
+	background-image: url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
+	background-repeat: repeat;
+	color: var(--color-midnight-blue);
+}
+h1,h2,h3,h4,h5,h6 {
+	color: var(--color-venice-blue);
+}
+hr {
+	border-color: var(--color-midnight-blue);
+	border-width: 1px;
+}
+a {
+	text-decoration: none;
+}
+
+/* Custom */
+.container {
+	border-color: var(--color-venice-blue);
+	border-radius: 10px;
+	border-style: outset;
+	border-width: 2px;
+	padding-bottom: 1px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 3px;
+}
+.centered {
+	text-align: center;
+}
+.icon {
+	border-radius: 8px;
+	height: 5%;
+	max-height: 100px;
+	max-width: 100px;
+	min-height: 40px;
+	min-width: 40px;
+	padding: 1px;
+  width: 5%;
+}
+.icon:hover {
+	border-radius: 8px;
+	opacity: 0.7;
+}
+#socials {
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* Navigation Bar */
+.ul-nav {
+	list-style-type: none;
+	overflow: auto;
+	text-align: center;
+}
+.li-nav {
+	display: inline-block;
+}
+.li-nav a {
+	background-color: var(--color-mint-tulip);
+	border-color: var();
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 2px;
+	color: var(--color-venice-blue);
+	display: inline-block;
+	margin: 2px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+.li-nav a:hover {
+	background-color: var(--color-half-baked);
+	text-decoration: underline;
+}
