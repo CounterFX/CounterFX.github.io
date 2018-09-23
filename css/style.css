@@ -1,66 +1,77 @@
-/* Variables */
-:root {
-	/* Credit to http://chir.ag/projects/name-that-color */
-	--color-cyprus: #00363e;
-	--color-midnight-blue: #003965;
-	--color-venice-blue: #0b5394;
-	--color-half-baked: #84c7ca;
-	--color-mint-tulip: #c0e3f4;
-}
-/* Core */
+/*	Colors:
+	- hasrh bg color: 	#1B78BC;
+	- soft bg color:	#F7FAFA;
+	- border:			
+	- h1-h6: 			
+	- dark font color: 	#365899;
+*/
+
+/*	 Core	*/
 html {
-	padding-left: 5vw;
-	padding-right: 5vw;
+	color: #365899;
+	font-family: arial;
+	padding: 1vh 5vw 2vh 5vw;
 }
 body {
-	background-image: url("https://sites.google.com/site/pokemonambient/_/rsrc/1376299316547/config/Zigzag%20spot.jpg.1376299316331.jpg");
+	background-color: #1B78BC;
+	background-image: url(../images/harshbg.png);
+	display: block;
+	margin: auto;
+	max-width: 975px;
+    width: 100%;
+}
+article footer {
+	background-color: #F7FAFA;
+	background-image: url(../images/softbg.png);
+}
+body, article, footer {
+	background-position: left top;
 	background-repeat: repeat;
-  margin: auto;
-	max-width: 1200px;
-}
-footer {
-	color: var(--color-midnight-blue);
-	background-image: url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
-	margin-top: 25px;
-}
-#body {
-	background-image: url(https://sites.google.com/site/pokemonambient/_/rsrc/1376299382540/config/forumSoft.png.1376299382343.png);
-	background-repeat: repeat;
-	color: var(--color-midnight-blue);
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: var(--color-venice-blue);
-}
-hr {
-	border-color: var(--color-midnight-blue);
-	border-width: 1px;
-}
-a {
-	text-decoration: none;
 }
 
-/* Custom */
-.container {
-	border-color: var(--color-venice-blue);
-	border-radius: 10px;
-	border-style: outset;
-	border-width: 2px;
-	padding-bottom: 1px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 3px;
+/*	  Utility	*/
+a {
+	color: #365899;
+	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
+hr {
+	border-color: #365899;
+	border-width: 1px;
+}
+
+/*	  Navibar	*/
+nav li {
+	display: inline-block;
+}
+nav li a {
+	background-color: #c0e3f4;
+	border: 2px solid #365899;
+	border-radius: 15px;
+	display: inline-block;
+	margin: 2px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color: #84c7ca;
+	text-decoration: underline;
+}
+
+/*	  Classes	*/
 .centered {
 	text-align: center;
 }
-.logo {
-  height: auto;
-	max-width: 100%;
+.container {
+	border: 2px outset #0b5394;
+	border-radius: 10px;
+	padding: 3px 25px 1px 25px;
+}
+.hightlight {
+	background-color: #84c7ca;
 }
 .icon {
 	border-radius: 8px;
@@ -76,34 +87,14 @@ a {
 	border-radius: 8px;
 	opacity: 0.7;
 }
+.logo {
+	height: auto;
+	max-width: 100%;
+	min-width: 300px;
+}
+
+/*	  Ids	*/
 #socials {
 	text-align: center;
 	padding-top: 10px;
-}
-
-/* Navigation Bar */
-.ul-nav {
-	list-style-type: none;
-	overflow: auto;
-	text-align: center;
-}
-.li-nav {
-	display: inline-block;
-}
-.li-nav a {
-	background-color: var(--color-mint-tulip);
-	border-color: var();
-	border-radius: 15px;
-	border-style: solid;
-	border-width: 2px;
-	color: var(--color-venice-blue);
-	display: inline-block;
-	margin: 2px;
-	padding: 5px;
-	text-align: center;
-	text-decoration: none;
-}
-.li-nav a:hover {
-	background-color: var(--color-half-baked);
-	text-decoration: underline;
 }

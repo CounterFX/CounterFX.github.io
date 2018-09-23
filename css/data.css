@@ -1,0 +1,550 @@
+/*	Classes	*/
+	.datatable {
+      border-radius: 10px;
+      padding: 3px;
+      text-align: center;
+    }
+    .datatable-bg {
+      background: gray;
+      border: 5px solid black;
+      float: right;
+      max-width: 420px;
+	  width: 33%;
+    }
+    .datatable-fg {
+      border-spacing: 3px;
+    }
+    .datatable-ff {
+      background-color: white;
+      margin: auto;
+    }
+	.dataimage {
+		height: auto;
+		max-height: 300px;
+		width: auto;
+		max-width: 100%;
+	}
+    .databox {
+      background-color: gray;
+      border: 3px solid black;
+      border-radius: 10px;
+      color: white;
+      font-size: 100%;
+      line-height: 12px;
+      height: 20px;
+      width: 50px;
+    }
+    .fontcolor-male {
+      color:#0000FF;
+    }
+    .fontcolor-female {
+      color:#FF6060;
+    }
+	.genderbar {
+      border: 0.5px solid black;
+      color: white;
+      float: left;
+      height: 10px;
+      overflow: hidden;
+	}
+    .genderbar-male {
+      background:#3355FF;
+	  border-bottom-left-radius: 10px;
+	  border-right: none;
+	  border-top-left-radius: 10px;
+    }
+    .genderbar-female {
+      background:#FF77DD;
+	  border-bottom-right-radius: 10px;
+	  border-left: none;
+	  border-top-right-radius: 10px;
+    }
+	.genderbar-50 {
+      width:49%;
+	}
+	.genderbar-87 {
+      width:87%;
+	}
+	.genderbar-12 {
+      width:12%;
+	}
+
+/*	Normal	*/
+	.bg-normal {
+      background-color: #a8a878;
+    }
+	.fg-normal {
+      background-color: #C6C6A7;
+    }
+	.border-normal {
+      border-color: #6d6d4e;
+    }
+	.data-normal {
+      background-color: #a8a878;
+      border-color: #6d6d4e;
+    }
+	
+/*	Fighting	*/
+    .bg-fighting {
+      background-color: #c03028;
+    }
+	.fg-fighting {
+      background-color: #D67873;
+    }
+	.border-fighting {
+      border-color: #7d1f1a;
+    }
+	.data-fighting {
+      background-color: #c03028;
+      border-color: #7d1f1a;
+    }
+	
+/*	Flying	*/
+    .bg-flying {
+      background-color: #a890f0;
+    }
+	.fg-flying {
+      background-color: #C6B7F5;
+    }
+	.border-flying {
+      border-color: #6d5e9c;
+    }
+	.data-flying {
+      background-color: #a890f0;
+      border-color: #6d5e9c;
+    }
+	
+/*	Poison	*/
+    .bg-poison {
+      background-color: #a040a0;
+    }
+	.fg-poison {
+      background-color: #C183C1;
+    }
+	.border-poison {
+      border-color: #682a68;
+    }
+    .data-poison {
+      background-color: #a040a0;
+      border-color: #682a68;
+    }
+	
+/*	Ground	*/
+    .bg-ground {
+      background-color: #e0c068;
+    }
+	.fg-ground {
+      background-color: #EBD69D;
+    }
+	.border-ground {
+      border-color: #927d44;
+    }
+	.data-ground {
+      background-color: #e0c068;
+      border-color: #927d44;
+    }
+	
+/*	Rock	*/
+    .bg-rock {
+      background-color: #b8a038;
+    }
+	.fg-rock {
+      background-color: #D1C17D;
+    }
+    .border-rock {
+      border-color: #786824;
+    }
+    .data-rock {
+      background-color: #b8a038;
+      border-color: #786824;
+    }
+	
+/*	Bug	*/
+    .bg-bug {
+      background-color: #b3c322;
+    }
+	.fg-bug {
+      background-color: #dde87d;
+    }
+	.border-bug {
+      border-color: #778217;
+    }
+	.data-bug {
+      background-color: #b3c322;
+      border-color: #778217;
+    }
+	
+/*	Ghost	*/
+    .bg-ghost {
+      background-color: #705898;
+    }
+	.fg-ghost {
+      background-color: #A292BC;
+    }
+    .border-ghost {
+      border-color: #493963;
+    }
+    .data-ghost {
+      background-color: #705898;
+      border-color: #493963;
+    }
+	
+/*	Metal	*/
+    .bg-metal {
+      background-color: #b8b8d0;
+    }
+	.fg-metal {
+      background-color: #D1D1E0;
+    }
+	.border-metal {
+      border-color: #787887;
+    }
+	.data-metal {
+      background-color: #b8b8d0;
+      border-color: #787887;
+    }
+	
+/*	Fire	*/
+    .bg-fire {
+      background-color: #f08030;
+    }
+	.fg-fire {
+      background-color: #F5AC78;
+    }
+    .border-fire {
+      border-color: #9c531f;
+    }
+    .data-fire {
+      background-color: #f08030;
+      border-color: #9c531f;
+    }
+	
+/*	Water	*/
+    .bg-water {
+      background-color: #5d88ef;
+    }
+	.fg-water {
+      background-color: #a2bbf6;
+    }
+	.border-water {
+      border-color: #1245ba;
+    }
+	.data-water {
+      background-color: #5d88ef;
+      border-color: #1245ba;
+    }
+	
+/*	Grass	*/
+    .bg-grass {
+      background-color: #78c850;
+    }
+	.fg-grass {
+      background-color: #A7DB8D;
+    }
+    .border-grass {
+      border-color: #4e8234;
+    }
+    .data-grass {
+      background-color: #78c850;
+      border-color: #4e8234;
+    }
+	
+/*	Electric	*/
+    .bg-electric {
+      background-color: #f8d030;
+    }
+	.fg-electric {
+      background-color: #FAE078;
+    }
+	.border-electric {
+      border-color: #a1871f;
+    }
+	.data-electric {
+      background-color: #f8d030;
+      border-color: #a1871f;
+    }
+	
+/*	Psychic	*/
+    .bg-psychic {
+      background-color: #f85888;
+    }
+	.fg-psychic {
+      background-color: #FA92B2;
+    }
+    .border-psychic {
+      border-color: #a13959;
+    }
+    .data-psychic {
+      background-color: #f85888;
+      border-color: #a13959;
+    }
+	
+/*	Ice	*/
+    .bg-ice {
+      background-color: #98d8d8;
+    }
+	.fg-ice {
+      background-color: #BCE6E6;
+    }
+	.border-ice {
+      border-color: #638d8d;
+    }
+	.data-ice {
+      background-color: #98d8d8;
+      border-color: #638d8d;
+    }
+	
+/*	Dragon	*/
+    .bg-dragon {
+      background-color: #7038fb;
+    }
+	.fg-dragon {
+      background-color: #A27DFA;
+    }
+    .border-dragon {
+      border-color: #4924a1;
+    }
+    .data-dragon {
+      background-color: #7038fb;
+      border-color: #4924a1;
+    }
+	
+/*	Dark	*/
+    .bg-dark {
+      background-color: #705848;
+    }
+	.fg-dark {
+      background-color: #A29288;
+    }
+	.border-dark {
+      border-color: #49392f;
+    }
+	.data-dark {
+      background-color: #705848;
+      border-color: #49392f;
+    }
+	
+/*	Fairy	*/
+    .bg-fairy {
+      background-color: #EE99AC;
+    }
+	.fg-fairy {
+      background-color: #F4BDC9;
+    }
+    .border-fairy {
+      border-color: #996a74;
+    }
+    .data-fairy {
+      background-color: #EE99AC;
+      border-color: #996a74;
+    }
+	
+/*	Cosmic	*/
+    .bg-cosmic {
+      background-color: #737fc9;
+    }
+	.fg-cosmic {
+      background-color: #a3abdb;
+    }
+	.border-cosmic {
+      border-color: #363f87;
+    }
+	.data-cosmic {
+      background-color: #737fc9;
+      border-color: #cc5200;
+    }
+	
+/*	Light	*/
+    .bg-light {
+      background-color: #faee52;
+    }
+	.fg-light {
+      background-color: #fdface;
+    }
+    .border-light {
+      border-color: #c6b906;
+    }
+    .data-light {
+      background-color: #faee52;
+      border-color: #c6b906;
+    }
+	
+/*	Magic	*/
+    .bg-magic {
+      background-color: #ffa061;
+    }
+	.fg-magic {
+      background-color: #ffd1b3;
+    }
+	.border-magic {
+      border-color: #cc5200;
+    }
+	.data-magic {
+      background-color: #ffa061;
+      border-color: #e65c00;
+    }
+	
+/*	Nuclear	*/
+    .bg-nuclear {
+      background-color: #70ff4d;
+    }
+	.fg-nuclear {
+      background-color: #c2ffb3;
+    }
+    .border-nuclear {
+      border-color: #24b300;
+    }
+    .data-nuclear {
+      background-color: #70ff4d;
+      border-color: #24b300;
+    }
+	
+/*	Air	*/
+    .bg-air {
+      background-color: #b5d4e3;
+    }
+	.fg-air {
+      background-color: #dae9f1;
+    }
+	.border-air {
+      border-color: #7eb3ce;
+    }
+	.data-air {
+      background-color: #b5d4e3;
+      border-color: #7eb3ce;
+    }
+	
+/*	Sound	*/
+    .bg-sound {
+      background-color: #51e1a7;
+    }
+	.fg-sound {
+      background-color: #a8f0d3;
+    }
+	.border-sound {
+      border-color: #1eae74;
+    }
+	.data-sound {
+      background-color: #51e1a7;
+      border-color: #1eae74;
+    }
+	
+/*	Cyber	*/
+    .bg-cyber {
+      background-color: #62b7a1;
+    }
+	.fg-cyber {
+      background-color: #b9dfd5;
+    }
+	.border-cyber {
+      border-color: #30695b;
+    }
+	.data-cyber {
+      background-color: #62b7a1;
+      border-color: #30695b;
+    }
+	
+/*	Shadow	*/
+    .bg-shadow {
+      background-color: #978cae;
+    }
+	.fg-shadow {
+      background-color: #c9c3d5;
+    }
+    .border-shadow {
+      border-color: #40305d;
+    }
+    .data-shadow {
+      background-color: #978cae;
+      border-color: #40305d;
+    }
+    
+/*	Egg Group Blocks	*/
+    .data-monster {
+      background-color: #d25064;
+      border-color: #933846;
+    }
+    .data-aquatic {
+      background-color: #97b6fd;
+      border-color: #697eb1;
+    }
+    .data-plant {
+      background-color: #82d25a;
+      border-color: #5b933f;
+    }
+    .data-insect {
+      background-color: #aac22a;
+      border-color: #77881d;
+    }
+    .data-bird {
+      background-color: #b29afa;
+      border-color: #7c6caf;
+    }
+    .data-beast {
+      background-color: #e0c068;
+      border-color: #9d8649;
+    }
+    .data-rodent {
+      background-color: #fed46d;
+      border-color: #b78301;
+    }
+    .data-serpent {
+      background-color: #3cd3ad;
+      border-color: #0f8064;
+    }
+    .data-pixie {
+      background-color: #ffc8f0;
+      border-color: #b38ca8;
+    }
+    .data-marine {
+      background-color: #9fdfe2;
+      border-color: #369ca1;
+    }
+    .data-fish {
+      background-color: #729afa;
+      border-color: #506caf;
+    }
+    .data-humanoid {
+      background-color: #d29682;
+      border-color: #93695b;
+    }
+    .data-subaqueous {
+      background-color: #5876be;
+      border-color: #3d5285;
+    }
+    .data-mineral {
+      background-color: #7a6252;
+      border-color: #554439;
+    }
+    .data-amorphous {
+      background-color: #8a8a8a;
+      border-color: #606060;
+    }
+    .data-artifact {
+      background-color: #92b9a3;
+      border-color: #44574c;
+    }
+    .data-primate {
+      background-color: #c03028;
+      border-color: #9a2d26;
+    }
+    .data-livestock {
+      background-color: #efe46c;
+      border-color: #978c11;
+    }
+    .data-draconic {
+      background-color: #7a42ff;
+      border-color: #552eb3;
+    }
+    .data-universal {
+      background-color: #a664bf;
+      border-color: #744686;
+    }
+    .data-undiscovered {
+      background-color: #333333;
+      border-color: #232323;
+    }
+    .data-unknown {
+      background-color: #0080c0;
+      border-color: #005986;
+    }
