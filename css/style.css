@@ -20,7 +20,7 @@ body {
 	max-width: 975px;
     width: 100%;
 }
-article footer {
+article, footer {
 	background-color: #F7FAFA;
 	background-image: url(../images/softbg.png);
 }
