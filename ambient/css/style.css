@@ -71,7 +71,12 @@ nav li a:hover {
 .container {
 	border: 2px outset #0b5394;
 	border-radius: 10px;
+	height: auto;
 	padding: 3px 25px 1px 25px;
+	overflow: auto;
+}
+.fb-like {
+	text-align: right;
 }
 .hightlight {
 	background-color: #84c7ca;
