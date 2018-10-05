@@ -1,135 +1,106 @@
 <!--
-	@name:		Project Ambient - Home
-	@author: 	VichiTech
-	@credit: 	https://www.w3schools.com/default.asp
-	@credit: 	https://www.w3schools.com/tags/ref_colornames.asp
+	Header: Banner - (IMAGE TEXT ---- NAVIGATIONS TO HEADERS)
+	
+	BODY (	INTRO
+			SERVICES
+			CONTACT FORM)
+	
+	FOOTER (INFO SOCIALS LEGAL)
 -->
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en-US">
-  <head>
-    <link rel="stylesheet" href="css/style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="120" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="VichiTech" />
-    <meta name="description" content="This is a fan concept inspired by the famous creature-collecting role-playing adventure series." />
-    <meta name="keywords" content="project,ambient,pokemon,version,fan,made,
-                                   tropical,island,isle,volcano,forest,ocean,sea,hot,sun,
-                                   regional,variant,alternate,form,adapt,migrate,
-								   home,main,news,index" />
-    <title>Home - Project Ambient</title>
-  </head>
-  <body>
-    <header>
-      <figure class="centered">
-        <a href="index.html" title="Title">
-          <img src="images/logo.png" alt="Project Ambient logo"
-		  class="logo"/>
-        </a>
-      </figure>
-
-      <nav class="centered">
-        <ul>
-          <li><a href="index.html" class="highlight">Home</a></li>
-          <li><a href="story.html">The Story</a></li>
-          <li><a href="serene.html">The Region</a></li>
-          <li><a href="characters.html">The Characters</a></li>
-          <li><a href="pokedex.html">The PokéDex</a></li>
-          <li><a href="music.html">The Music</a></li>
-          <li><a href="contribute.html">Contribute</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="legal.html">Legal</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <article class="container">
-		<h2 class="centered">“To Bring Peace to the Islands of Serene”</h2>
-		<p class="centered">This is a fan concept inspired by the famous creature-collecting role playing adventure series.</p>
+	<head>
+		<title>
+			VichiTech
+		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	
+	<body>
+		<header>
+			<div id="hcontainer">
+				<picture>
+					<img id="hlogo" src="images/logo.png" alt="VichiTech Logo"></img>
+				</picture>
+				<span id="htxt"> VichiTech</span>
+			</div>
+			
+			<ul>
+				<li><a href="#legal" title="Go to Legal section">
+					Legal
+				</a></li>
+				<li><a href="#about" title="Go to About section">
+					About
+				</a></li>
+				<li><a href="#contact" title="Go to Contact section">
+					Contact
+				</a></li>
+				<li><a href="#projects" title="Go to Projects section">
+					Projects
+				</a></li>
+				<li><a href="#news" title="Go to News section">
+					News
+				</a></li>
+			</ul>
+		</header>
 		
-		<h2>Project Ambient - News</h2>
+		<main>
+			<div id="intro" class="container"> 
+				<h1>Introduction</h1>
+				<p>
+					Welcome to VichiTech! We offer web development, graphic design, and project management services.
+				</p>
+			</div>
+			
+			<div id="news" class="container"> 
+				<h1 >News</h1>
+			</div>
+			
+			<div id="projects" class="container"> 
+				<h1>Projects</h1>
+				<h2>Project Ambient</h2>
+				<p>
+					This project was created as an informational website about a fan-made game idea. It features concepts, artwork, and inspirations.
+				</p>
+				<iframe height="300px" width="50%" src="ambient/index.html" name="iframe_a"></iframe>
+			</div>
+			
+			<div id="contact" class="container"> 
+				<h1>Contact</h1>
+				<form>
+					<fieldset>
+						<legend>Contact</legend>
+						Name: <input text="text">
+						<br></br>
+						Email: <input text="text">
+						<br></br>
+						Content: <input text="text">
+					</fieldset>
+				</form>
+			</div>
+			
+			<div id="about" class="container"> 
+				<h1>About</h1>
+			</div>
+		</main>
 		
-		<p>Welcome to the official <b>Project Ambient</b> page! This website showcases the ideas, artwork, music, and data about the project. The concept is to create a new world full of beautiful creatures, marvelous and daring characters, tropical and vivid landscapes, and a dramatic memorable adventure. This website will be constantly updated with new information</p>
+		<footer>
+			<address>
+				Operated by Brendon Vichi
+				<br></br>
+				VichiTech
+				<br></br>
+				Orlando, FL
+				<br></br>
+				USA
+			</address>
 		
-		<hr/>
-		
-		<p><b>Counter</b> - aka <b>SereneAmbience</b> aka <b>CounterFX</b> - is the founder, director, artist, and lead developer of this project. He started Project Ambient while sitting in his college lecture hall in 2012. Inspired by his boredom, he began filling in his notebooks with ideas and concept of his favorite series, <b>Pokémon</b>. Several spiral-bound notebooks filled with information, concepts, plots, and artwork were ready to start his dream of creating an actual game. The game was originally constructed on the <b>Pokémon Essentials kit</b> for <b>RPG Maker XP</b> but later discontinued due to scheduling conflicts with time and life. <b>Project Ambient</b> is still in concept and anyone is welcome to join/help distribute to this dream!</p>
-		
-		<hr/>
-		
-		<p>Want to add to this project? Are you an artist? Do you make music? Just want to express your suggestions? Visit the <a href="#contact">Contact page</a>  to share your ideas! We will credit any contributed items or ideas, even if not used.</p>
-    </article>
-
-    <footer class="container">
-      <div id="socials">
-        <a href="https://www.facebook.com/PokemonAmbient">
-          <img src="https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.0-9/31562081_10157324683366729_5005221974700457984_n.png?_nc_cat=0&oh=fa9e7e30a46e407f4b5df9ad7f09b623&oe=5BD92779" alt="FaceBook Icon" class="icon"/>
-        </a>
-        <a href="https://sites.google.com/site/pokemonambient/">
-          <img src="https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/21751306_10155724905022838_7192191338970086519_n.png?_nc_cat=0&oh=3996a5385b6b4dddabfd131e92c71e3c&oe=5C058E27" alt="Google Icon" class="icon"/>
-        </a>
-        <a href="https://www.pokecommunity.com/showthread.php?t=294679">
-          <img src="https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/29066544_2217685474910099_7502092527806185472_n.jpg?_nc_cat=0&oh=a6259b728bbeb8731137ad55c15756d7&oe=5BD2260A" alt="The PokeCommunity Icon" class="icon"/>
-        </a>
-      </div>
-
-      <!-- Your like button code -->
-      <div class="fb-like" data-href="https://www.facebook.com/PokemonAmbient" data-layout="standard" data-action="like" data-size="large" data-share="true">
-      </div>
-	  
-      <p class="centered"><b>&reg; 2012-2018 Project Ambient</b>.</p>
-	  
-      <hr/>
-	  
-      <p><b>&reg; 2018 Pokémon</b> character names, music, images are trademarks of <b>&reg; 1995–2018 Nintendo
-        / Creatures Inc. / GAME FREAK inc</b> and belong to the
-        <b>The Pokémon Company International</b>.
-      </p>
-	  
-      <p>This website is in no way affiliated with or endorsed by
-        <b>Nintendo</b>, <b>Creatures</b>, <b>GAMEFREAK</b>, or
-        <b>The Pokémon Company International</b>
-      </p>
-	  
-      <p>The <b>Facebook</b> logo is a trademark of <b>&reg;
-        2018 Facebook Inc</b>.
-      </p>
-	  
-      <p><b>&reg; 2018 Google LLC</b> All rights reserved.
-        <b>Google</b> and the <b>Google</b> logo are registered trademarks of <b>Google LLC</b>.
-      </p>
-	  
-      <p><b>The PokéCommunity</b> logo is a trademark of
-        <b>&reg; 2002-2017 The PokéCommunity / PokéCommunity.com</b>.
-      </p>
-	  
-      <p>Other trademarks are the property of their respective owners.</p>
-	  
-      <hr/>
-	  
-      <p>This website developed with the help of <a href="https://www.w3schools.com/default.asp" title="Go to W3Schools website">w3schools.</a></p>
-	  
-      <p title="This includes names, images, and files."><i>All Rights Reserved.</i></p>
-	  
-      <p>&#169; Copyright content such as software.</p>
-	  
-      <p>&#174; Trademarked name and logo.&#8482;</p>
-    </footer>
-
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root" class="centered"></div>
-    <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <!-- Publish TrustedSite Trustmark -->
-    <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
-  </body>
+			<div id="legal">
+				
+			</div>
+		</footer>
+	</body>
 </html>

@@ -41,6 +41,9 @@ hr {
 	border-color: #365899;
 	border-width: 1px;
 }
+p a {
+	font-weight: bold;
+}
 
 /*	  Navibar	*/
 nav li {
@@ -97,4 +100,9 @@ nav li a:hover {
 #socials {
 	text-align: center;
 	padding-top: 10px;
+}
+#github {
+	height: auto;
+	max-widtH: 10%;
+	min-widtH: 75px;
 }
